@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
+import {Node} from 'react';
 import {Calendar, Space, Image, Card, Toast, Button} from 'antd-mobile';
 
 import {
