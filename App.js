@@ -8,6 +8,8 @@
 
 import React from 'react';
 import type {Node} from 'react';
+import {Calendar, Space, Image, Card, Toast, Button} from 'antd-mobile';
+
 import {
   SafeAreaView,
   ScrollView,
@@ -66,14 +68,16 @@ const App: () => Node = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
         <Header />
+        <Button />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
-          <Section title="Step One">
+          <Section title="Step One (1)">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
+
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
